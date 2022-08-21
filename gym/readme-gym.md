@@ -8,7 +8,12 @@ Follow the instructions in the [mujoco-py repo](https://github.com/openai/mujoco
 Then, dependencies can be installed with the following command:
 
 ```
-conda env create -f conda_env.yml
+conda env create -f conda_env.yml -n dt_env
+```
+
+### for installing on Ubuntu 20.04
+```
+sudo apt-get install libglew-dev
 ```
 
 ## Downloading datasets
